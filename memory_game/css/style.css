@@ -2,6 +2,11 @@ body {
 	text-align: center;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+
 a {
 	text-decoration: none;
 	font-weight: 600;
@@ -57,7 +62,7 @@ h2 {
 	font-weight: 600;
 	color: #F15B31;
 	letter-spacing: 1px;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 7px;
 	margin-top: 20px;
 }
@@ -65,7 +70,7 @@ h2 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 26px;
-	font-size: 18px;™
+	font-size: 16px;™
 
 }
 
@@ -86,6 +91,16 @@ footer {
 	
 	letter-spacing: 0.08em;
 	font-weight: 600;
+}
+
+button {
+	background-color: #00A6B3;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
 }
 
 .copyright {

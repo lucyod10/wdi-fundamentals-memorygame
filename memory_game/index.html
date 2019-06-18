@@ -13,30 +13,23 @@
 		<h1>Memory Game!</h1>
 	</header>
 	<nav>
-		<a href="#">Instructions</a>
-		<a href="#">Game</a>
+		<a href="#instructions">Instructions</a>
+		<a href="#game">Game</a>
 	</nav>
 	<main>
-		<h2>Instructions</h2>
+		<h2 id="instructions">Instructions</h2>
 		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face fown on a surgace and two cards are flipped face up over each turn. The object of the game is to turn over pairs of patching cards.</p>
 
-		<h2>Game</h2>
-		<p>Try this exciting easy to play game now made for you on the web. Created by developer Lucy Ogden-Doyle, this game is designed for those who are looking for an easy passtime to entertain themselves throughout the day.
-		</p>
-		<p>You can find more information about the developer at:<br />
-			<ul>
-				<li><a href="https://github.com/lucyod10">Github</a></li>
-				<li><a href="www.lucyogdendoyle.com">Website</a></li>
-				<li><a href="https://www.artstation.com/lucyogdendoyle">Artstation</a></li>
-				<li><a href="#">LinkedIn</a></li>
-			</ul>
+		<h2 id="game">Game</h2>
+			<p>
+			Score: <span id="score">0</span>
 			</p>
 
-		<div>
-		<img src="images/back.png" alt="Queen of Diamonds">
-		<img src="images/back.png" alt="Queen of Hearts">
-		<img src="images/back.png" alt="King of Diamonds">
-		<img src="images/back.png" alt="King of Hearts">
+			<p>
+				<button id="reset">Reset Cards</button>
+			</p>
+
+		<div id="game-board" class="board clearfix">
 		</div>
 	</main>
 	<footer class="clearfix">
